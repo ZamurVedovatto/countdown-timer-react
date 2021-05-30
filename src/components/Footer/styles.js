@@ -8,6 +8,8 @@ export const FooterWrapper = styled.footer`
   padding: 1rem;
   text-align: center;
   span {
-    font-size: .75rem;
+    font-weight: 100;
+    font-size: 1rem;
+    letter-spacing: 1px;
   }
 `
