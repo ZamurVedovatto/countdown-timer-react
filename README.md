@@ -3,4 +3,4 @@
 
 ![Countdown Timer Demo](src/assets/screenshot.png)
 
-Demo [`here`](http://zcountdown-vanilla.surge.sh/).
+Demo [`here`](http://zcountdown-react.surge.sh/).

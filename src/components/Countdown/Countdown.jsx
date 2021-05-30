@@ -19,9 +19,13 @@ export default function Countdown() {
       const minutes = Math.floor(totalSeconds / 60) % 60
       const seconds = Math.floor(totalSeconds) % 60
       setDaysEl(days)
-      setHoursEl(hours)
-      setMinutesEl(minutes)
-      setSecondsEl(seconds)
+      setHoursEl(formatTime(hours))
+      setMinutesEl(formatTime(minutes))
+      setSecondsEl(formatTime(seconds))
+    }
+
+    const formatTime = (time) => {
+      return time < 10 ? (`0${time}`) : time
     }
 
     const interval = setInterval(countdown, 1000)
